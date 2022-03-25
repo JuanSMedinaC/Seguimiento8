@@ -21,8 +21,12 @@ public class Main {
 				System.out.println(countries.get(i).toStringFemale());
 			}
 			System.out.println("----------");
+			cList.combinedSort();
 			countries=cList.getCountries();
 			System.out.println("Combinado");
+			for (int i=0;i<countries.size();i++) {
+				System.out.println(countries.get(i).toStringCombined());
+			}
 
 	}
 }

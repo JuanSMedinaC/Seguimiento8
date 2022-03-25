@@ -175,6 +175,9 @@ public class Country implements Comparable<Country>{
 	public String toStringFemale() {
 		return name+" "+femaleGoldMedals+" "+femaleSilverMedals+" "+femaleBronzeMedals;
 	}
+	public String toStringCombined() {
+		return name+ " "+combinedGold+" "+combinedSilver+" "+combinedBronze;
+	}
 
 
 	
